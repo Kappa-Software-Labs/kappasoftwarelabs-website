@@ -1,4 +1,4 @@
 /** @type {import('vite').UserConfig} */
 export default {
-    base: './', // Reverting to relative paths as requested
+    base: '/', // Absolute paths are required to ensure consistent behavior between root URL and index.html
 }
